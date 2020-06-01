@@ -1,0 +1,66 @@
+.cardBox {
+    width: 50%;
+    padding: 1rem .25rem;
+    text-align: center;
+    position: relative;
+}
+@media screen and (min-width: 992px){
+	.cardBox{
+        width: 25%;
+	}
+}
+
+.cardImage {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+.cardImage img {
+    width: 100%;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardInfoTitle {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: .3rem;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+.cardInfoPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productPricePromotional {
+    margin-right: 1rem;
+    font-size: 12px;
+    color: #a7a7a7;
+    text-decoration:line-through;
+}
+
+.productPrice {
+    font-size: 14px;
+}
+
+.badgePromotion {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    background-color: #212529;
+    color: #FFF;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px;
+}
